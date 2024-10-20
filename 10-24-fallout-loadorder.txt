@@ -51,6 +51,8 @@ WorkshopPlus.esp
 SettlementMenuManager.esp
 RealNameSettlers.esp
 RNS Expanded.esp
+BetterSettlers.esp
+BetterSettlersNoLollyGagging.esp
 Scrap Everything - Ultimate Edition.esp
 
 # Rebuild Settlements #
@@ -68,6 +70,7 @@ EthreonMasterPlan.esm
 VanillaExtensions.esp
 g2m_Workshop_nexus.esp
 Thematic and Practical.esp
+afpABetterWorldWorkshop_Cabin.esp
 FliteskaWorkshop.esp
 WorkshopRearranged.esp
 WorkshopRearranged_MasterPlan_Patch.esp
