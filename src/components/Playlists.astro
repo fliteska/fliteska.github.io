@@ -4,7 +4,7 @@ import { playlists } from "../data";
 
 <ul class="mb-4 list-disc list-outside pl-8 pt-8 flex flex-col gap-4">
   {playlists.map(item => (<li>
-    <a class="text-white hover:underline" href={item.href}>
+    <a class="text-white hover:underline" href={item.href} target="_blank">
       {item.title}
     </a>
     <p>{item.description}</p>

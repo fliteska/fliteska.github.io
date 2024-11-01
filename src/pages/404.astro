@@ -1,0 +1,13 @@
+---
+import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer.astro';
+import MySiteLayout from '../layouts/main.astro';
+---
+<MySiteLayout title="Home Page">
+  <Hero title='Error 404' img="/hero.jpg">
+    Sorry Wanderer, it looks like you've stumbled across a lost page.
+  </Hero>
+  <main class="divide-y-8 divide-slate-700">
+    <Footer />
+  </main>
+</MySiteLayout>

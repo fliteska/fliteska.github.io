@@ -1,0 +1,29 @@
+---
+import Footer from '../components/Footer.astro';
+import Hero from '../components/Hero.astro';
+import MySiteLayout from './main.astro';
+
+interface Props {
+  title: string;
+  img?: string;
+  mods: string[];
+}
+
+const { title, mods, img = "/hero.jpg" } = Astro.props;
+---
+<MySiteLayout title={title + ' | Load Orders'}>
+  <Hero title={title} img={img}>
+    <slot />
+  </Hero>
+  <h3 class="text-3xl text-white font-black uppercase my-4">Load Order</h3>
+  <main class="divide-y-8 divide-slate-700">
+    <ul class="mb-4 list-disc list-outside pl-8 mb-8 flex flex-col gap-4 text-slate-400 grid md:grid-cols-3">
+      {mods.map(item => (<li>
+        <span class="text-white hover:underline">
+          {item}
+        </span>
+      </li>))}
+    </ul>
+    <Footer />
+  </main>
+</MySiteLayout>

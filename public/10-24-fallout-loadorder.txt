@@ -80,3 +80,6 @@ Targeted Textures.esp
 FlaconOil_BA2_2K_Part1.esp
 FlaconOil_BA2_2K_Part2.esp
 FlaconOil_BA2_2K_Part3.esp
+
+# PRP Patches #
+AUR_RebuildEchoLake_PRP.esp
