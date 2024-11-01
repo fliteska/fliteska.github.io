@@ -1,0 +1,21 @@
+---
+import LoadOrders from './LoadOrders.astro';
+import Playlists from './Playlists.astro';
+---
+<article class="grid md:grid-cols-3 text-slate-400 gap-8 py-8 divide-y-8 divide-slate-700 md:divide-y-0">
+  <section class="md:col-span-2">
+    <h3 class="text-3xl text-white font-black uppercase mb-4">Playlists</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum quis molestiae dolor est cumque commodi, delectus totam consequuntur aut quisquam fugiat exercitationem ipsam quos.</p>
+    <Playlists />
+  </section>
+  <aside class="flex flex-col gap-y-4 divide-y-8 divide-slate-700">
+    <section class="pt-4 md:pt-0">
+      <h3 class="text-3xl text-white font-black uppercase mb-4">Load Orders</h3>
+      <LoadOrders />
+    </section>
+    <section class="pt-4">
+      <h3 class="text-3xl text-white font-black uppercase mb-4">Mods</h3>
+      <p class="mb-4">Vitae, id impedit earum aliquid eveniet, rerum nesciunt explicabo corporis repellendus molestiae autem deleniti perspiciatis nostrum quod voluptas hic incidunt fuga iste natus. Quam, libero?</p>
+    </section>
+  </aside>
+</article>

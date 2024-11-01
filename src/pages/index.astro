@@ -1,0 +1,14 @@
+---
+import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer.astro';
+import MySiteLayout from '../layouts/main.astro';
+---
+<MySiteLayout title="Home Page">
+  <Hero />
+  <main class="divide-y-8 divide-slate-700">
+    <article class="py-8 text-3xl text-white">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quo harum autem laborum, quaerat suscipit facere esse accusamus, veniam quas corrupti perspiciatis voluptatibus iusto quis blanditiis.</p>
+    </article>
+    <Footer />
+  </main>
+</MySiteLayout>

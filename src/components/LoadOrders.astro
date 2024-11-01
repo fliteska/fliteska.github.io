@@ -1,0 +1,8 @@
+---
+import { loadOrders } from "../data";
+---
+<ul class="mb-4 list-disc list-inside">
+  {loadOrders.map(item => (<li>
+    <a class="text-white hover:underline" href={item.href}>{item.title}</a>
+  </li>))}
+</ul>

@@ -1,0 +1,82 @@
+# Base Game #
+Fallout4.esm
+DLCRobot.esm
+DLCworkshop01.esm
+DLCCoast.esm
+DLCworkshop02.esm
+DLCworkshop03.esm
+DLCNukaWorld.esm
+
+# Midnight Ride / Bugfixes / Tweaks #
+Unofficial Fallout 4 Patch.esp
+Fallout 4 Fixes.esm
+LegendaryDropBugfix.esl
+XDI.esm
+HUDFramework.esm
+Wetness Shader Fix.esp
+Fixed Gobo Effects.esp
+Fallout 4 Consistency Tweaks.esp
+Ownership Fixes.esp
+JamaicaPlainPathing.esp
+MechLairPathfindingFix.esp
+NewtonsRegards.esp
+MiscAnimTweaks.esp
+ArmorPenetrationBugFix.esp
+LOST Audio Tweaks.esp
+Keep Radiants In Commonwealth.esp
+WhoIsTheGeneral.esp
+Who's The General - UFO4P Patch.esp
+Weapon Scrapping Redone.esp
+Clothing Scrapping Redone.esp
+M8rDisablePipboyEffects.esp
+Less intrusive tutorial.esp
+TrueInvisibility.esp
+Better Power Armor - Redux.esp
+Better Power Armor - Redux - Fallout 4 Fixes Patch.esp
+Lightweight Lighting.esp
+PRP - LOST Audio Tweaks Patch.esp
+
+# Creatures #
+MutantMenagerie.esm
+MutantMenagerie_FarHarbor.esm
+MutantMenagerie_NukaWorld.esm
+D.E.C.A.Y.esp
+
+# Quality of Life #
+TransferSettlements.esp
+CheatTerminal.esp
+PhotoMode.esp
+WorkshopFramework.esm
+WorkshopPlus.esp
+SettlementMenuManager.esp
+RealNameSettlers.esp
+RNS Expanded.esp
+BetterSettlers.esp
+BetterSettlersNoLollyGagging.esp
+Scrap Everything - Ultimate Edition.esp
+
+# Rebuild Settlements #
+AUR_Rebuild_Shared.esp
+AUR_RebuildEchoLake.esp
+
+# Settlement Objects #
+WDP-PC.esp
+KURO.esp
+cVc Dead Wasteland 6.esp
+OCDecorator.esp
+OCDecoratorDLC.esp
+OCDispenser.esp
+EthreonMasterPlan.esm
+VanillaExtensions.esp
+g2m_Workshop_nexus.esp
+Thematic and Practical.esp
+afpABetterWorldWorkshop_Cabin.esp
+FliteskaWorkshop.esp
+WorkshopRearranged.esp
+WorkshopRearranged_MasterPlan_Patch.esp
+
+# Retextures #
+Targeted Textures.esp
+FlaconOil_BA2_2K_Part1.esp
+FlaconOil_BA2_2K_Part2.esp
+FlaconOil_BA2_2K_Part3.esp

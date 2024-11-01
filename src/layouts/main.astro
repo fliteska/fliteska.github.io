@@ -1,0 +1,17 @@
+---
+import Navigation from "../components/Navigation.astro";
+const { title } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title} | Fliteska</title>
+  </head>
+  <body class="bg-zinc-950">
+    <div class="border-t-8 border-sky-400 max-w-6xl px-6 mx-auto">
+      <Navigation />
+      <slot />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+---
+import { navUrls } from "../data";
+---
+
+<nav class="flex items-center py-8">
+  <div class="flex flex-col">
+    <span class="text-6xl font-black tracking-wide uppercase text-sky-400">Fliteska</span>
+    <span class="uppercase text-white font-bold">[Mod author <span class="text-sky-400">&middot;</span> Content creator]</span>
+  </div>
+  <ul class="ml-auto flex gap-4">
+    {navUrls.map(item => (<li><a href={item.href} target="_blank">{item.title}</a></li>))}
+  </ul>
+</nav>
+<style>
+  a {
+    @apply text-white uppercase hover:text-sky-400 font-bold;
+  }
+</style>
