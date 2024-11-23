@@ -6,6 +6,7 @@ export const navUrls = [
 
 export const loadOrders = [
   { title: "Rebuilding Far Harbor", href: "/load-orders/rebuilding-far-harbor" },
+  { title: "Spectacle Island", href: "/load-orders/spectacle-island" },
   { title: "Lore-friendly Settlement Building", href: "/load-orders/lore-friendly-settlement-building" },
 ];
 
