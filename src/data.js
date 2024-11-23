@@ -6,12 +6,12 @@ export const navUrls = [
 
 export const loadOrders = [
   { title: "Rebuilding Far Harbor", href: "/load-orders/rebuilding-far-harbor" },
-  { title: "Spectacle Island", href: "/load-orders/spectacle-island" },
+  { title: "Rebuilding The Commonwealth", href: "/load-orders/rebuilding-the-commonwealth" },
   { title: "Lore-friendly Settlement Building", href: "/load-orders/lore-friendly-settlement-building" },
 ];
 
 export const playlists = [
-  { title: "Spectacle Island", href: "https://www.youtube.com/playlist?list=PLIF9YwjqqBUunKeSc3kP0ppn2LmjoleB5", description: "A lore-friendly Spectacle Island settlement build." },
+  { title: "Rebuilding The Commonwealth: Spectacle Island", href: "https://www.youtube.com/playlist?list=PLIF9YwjqqBUunKeSc3kP0ppn2LmjoleB5", description: "A lore-friendly Spectacle Island settlement build." },
   { title: "Rebuilding Far Harbor: Echo Lake Lumber", href: "https://www.youtube.com/playlist?list=PLIF9YwjqqBUv01plZB0HziwIPB3IRhuEl", description: "A small community inspired by TWD's Hilltop Colony." },
   { title: "Lore-friendly Settlement Building: Oberland Station", href: "https://www.youtube.com/playlist?list=PLIF9YwjqqBUve0MCoU5l3YMVjOlZ4z2aP", description: "A train yard settlement for travelling wastelanders." },
   { title: "Lore-friendly Settlement Building: Outpost Zimonja", href: "https://www.youtube.com/playlist?list=PLIF9YwjqqBUu6-KxBIaq0vcZRzL-ibKpV", description: "A small military outpost controlled by The Minutemen." },
