@@ -1,9 +1,13 @@
 ---
 import { playlists } from "../data";
+interface Props {
+  amount: number;
+}
+const { amount } = Astro.props;
 ---
 
 <ul class="mb-4 list-disc list-outside pl-8 pt-8 flex flex-col gap-4">
-  {playlists.map(item => (<li>
+  {playlists.slice(0, amount).map(item => (<li>
     <a class="text-white hover:underline" href={item.href} target="_blank">
       {item.title}
     </a>

@@ -1,8 +1,12 @@
 ---
 import { loadOrders } from "../data";
+interface Props {
+  amount: number;
+}
+const { amount } = Astro.props;
 ---
 <ul class="mb-4 list-disc list-inside">
-  {loadOrders.map(item => (<li>
+  {loadOrders.slice(0, amount).map(item => (<li>
     <a class="text-white hover:underline" href={item.href}>{item.title}</a>
   </li>))}
 </ul>
