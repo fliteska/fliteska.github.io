@@ -5,9 +5,7 @@ export const navUrls = [
 ];
 
 export const loadOrders = [
-  { title: "Rebuilding Far Harbor", href: "/load-orders/rebuilding-far-harbor" },
   { title: "Rebuilding The Commonwealth", href: "/load-orders/rebuilding-the-commonwealth" },
-  { title: "Lore-friendly Settlement Building", href: "/load-orders/lore-friendly-settlement-building" },
 ];
 
 export const playlists = [
