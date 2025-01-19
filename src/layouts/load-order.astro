@@ -21,13 +21,13 @@ const { title, mods, img = "/hero.jpg" } = Astro.props;
   <main class="divide-y-8 divide-slate-700">
     {Object.keys(mods).map(section => {
       <h4>{section}</h4>
-    <ul class="mb-4 mb-8 flex flex-col gap-4 text-white grid md:grid-cols-3">
-      {mods[section].map(item => (<li>
-        <span title={item} class="rounded bg-slate-700 p-2 block truncate">
-          {item}
-        </span>
-      </li>))}
-    </ul>
+    // <ul class="mb-4 mb-8 flex flex-col gap-4 text-white grid md:grid-cols-3">
+    //   {mods[section].map(item => (<li>
+    //     <span title={item} class="rounded bg-slate-700 p-2 block truncate">
+    //       {item}
+    //     </span>
+    //   </li>))}
+    // </ul>
     })}
     <Footer playlistCount={100} loadOrderCount={100} />
   </main>
