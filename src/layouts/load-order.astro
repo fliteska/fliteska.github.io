@@ -17,7 +17,7 @@ const { title, mods, img = "/hero.jpg" } = Astro.props;
   </Hero>
   <h3 class="text-3xl text-white font-black uppercase my-4">Load Order</h3>
   <main class="divide-y-8 divide-slate-700">
-    <ul class="mb-4 mb-8 flex flex-col gap-4 text-slate-400 grid md:grid-cols-3">
+    <ul class="mb-4 mb-8 flex flex-col gap-4 text-white grid md:grid-cols-3">
       {mods.map(item => (<li>
         <span title={item} class="rounded bg-slate-700 p-2 block truncate">
           {item}
