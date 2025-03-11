@@ -1,6 +1,7 @@
 
 const events = require('events');
 const fs = require('fs');
+const path = require('path');
 const readline = require('readline');
 
 (async function processLineByLine() {
@@ -11,7 +12,7 @@ const readline = require('readline');
   let currentSeparator = "DLC";
   try {
     const rl = readline.createInterface({
-      input: fs.createReadStream('rtc.txt'),
+      input: fs.createReadStream(path.join(__dirname, './modlist.txt')),
       crlfDelay: Infinity
     });
 
@@ -31,7 +32,7 @@ const readline = require('readline');
         obj[currentSeparator].push(mod.replace("+", ""));
       }
     });
-    fs.writeFile('rtc.json', JSON.stringify(obj, null, 2), 'utf8', () => {});
+    fs.writeFile('rebuilding-the-commonwealth.json', JSON.stringify(obj, null, 2), 'utf8', () => {});
   } catch (err) {
     console.error(err);
   }
