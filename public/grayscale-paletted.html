@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .flex {
+            display: flex;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+<body>
+    <header class="flex">
+        <label>
+            <span>Palette Image</span>
+            <input type='file' onchange="readPalette(this);" />
+        </label>
+        <label>
+            <span>Grayscale Image</span>
+            <input type='file' onchange="readImg(this);" />
+        </label>
+        <label>
+        </label>
+        <button id="generateBtn">Generate Canvas</button>
+    </header>
+    <div class="flex">
+        <ol id="instructions">
+            <li>Choose your grayscale image (as PNG)</li>
+            <li>Choose your palette image (as PNG)</li>
+            <li>Choose your colour remapping (percentage down the palette image)</li>
+            <li>Click Generate Canvas</li>
+            <li>Right click the image on the right and save image as png</li>
+            <li>Convert to DDS in whatever editor</li>
+            <li>Make your material file (copy the original one, turn off grayscale to palette)</li>
+            <li>Point diffuse to your new DDS</li>
+        </ol>
+        <div id="palette-settings">
+            <img id="paletteImg" />
+            <input type="number" id="color-remapping" min="0" max="1" step="0.01" value="0" />
+            <canvas style="display: none;" id="paletteCanvas"></canvas>
+        </div>
+    </div>
+    <div class="flex">
+        <button id="showOriginalBtn" disabled>Original</button>
+        <button id="showPalettedBtn">Paletted</button>
+    </div>
+    <div class="flex">
+        <img id="mainImg" />
+        <canvas class="hidden" id="mainCanvas"></canvas>
+    </div>
+    <script>
+        function readImg(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const img = document.querySelector('#mainImg');
+                    img.setAttribute('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        function readPalette(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const img = document.querySelector('#paletteImg');
+                    img.setAttribute('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        const originalBtn = document.querySelector('#showOriginalBtn');
+        const paletteBtn = document.querySelector('#showPalettedBtn');
+        const mainImg = document.querySelector('#mainImg');
+        const mainCanvas = document.querySelector('#mainCanvas');
+
+        originalBtn.addEventListener('click', function() {
+            this.setAttribute('disabled', 'disabled');
+            paletteBtn.removeAttribute('disabled');
+            mainCanvas.classList.add('hidden');
+            mainImg.classList.remove('hidden');
+        });
+
+        paletteBtn.addEventListener('click', function() {
+            this.setAttribute('disabled', 'disabled');
+            originalBtn.removeAttribute('disabled');
+            mainImg.classList.add('hidden');
+            mainCanvas.classList.remove('hidden');
+        });
+
+        document.querySelector('#generateBtn').addEventListener('click', function() {
+            const colourRemappingValue = parseFloat(document.querySelector("#color-remapping").value, 2);
+            console.log(colourRemappingValue)
+            mainCanvas.width = mainImg.width;
+            mainCanvas.height = mainImg.height;
+
+            let mainCtx = mainCanvas.getContext("2d");
+            mainCtx.drawImage(mainImg, 0, 0);
+            let mainImgCtxData = mainCtx.getImageData(0, 0, mainCanvas.width, mainCanvas.height);
+            let mainImgData = mainImgCtxData.data;
+
+            const paletteImg = document.querySelector('#paletteImg');
+            const paletteCanvas = document.querySelector('#paletteCanvas');
+            paletteCanvas.width = paletteImg.width;
+            paletteCanvas.height = paletteImg.height;
+
+            const paletteCtx = paletteCanvas.getContext("2d");
+            paletteCtx.drawImage(paletteImg, 0, 0);
+            const paletteImgCtxData = paletteCtx.getImageData(0, 0, paletteCanvas.width, paletteCanvas.height);
+            const paletteImgData = paletteImgCtxData.data;
+
+            console.log(paletteImgData)
+
+            const paletteDivider = 256 / paletteCanvas.width;
+            console.log(paletteDivider);
+
+
+            for (let i = 0; i < mainImgData.length; i++) {
+                const pixel = ((paletteCanvas.width) * Math.floor(colourRemappingValue * (paletteCanvas.height - 1)) + Math.floor(mainImgData[i] / paletteDivider)) * 4;
+                mainImgData[i] = paletteImgData[pixel];
+                mainImgData[i + 1] = paletteImgData[pixel + 1];
+                mainImgData[i + 2] = paletteImgData[pixel + 2];
+                mainImgData[i + 3] = paletteImgData[pixel + 3];
+                i += 3;
+            }
+
+            mainCtx.clearRect(0, 0, mainCanvas.width, mainCanvas.height);
+            const newImgData = new ImageData(mainImgData, mainCanvas.width, mainCanvas.height);
+            mainCtx.putImageData(newImgData, 0, 0);
+            mainImgCtxData = mainCtx.getImageData(0, 0, mainCanvas.width, mainCanvas.height);
+        });
+    </script>
+</body>
+</html>
