@@ -18,8 +18,9 @@ const { title, mods, loadOrder, img = "/hero.jpg" } = Astro.props;
   <Hero title={title} img={img}>
     <slot />
   </Hero>
-  <h3 class="text-3xl text-white font-black uppercase my-4">Mods</h3>
   <main class="divide-y-8 divide-slate-700">
+    <details>
+      <summary class="text-3xl text-white font-black uppercase my-4">Mods</summary>
     {Object.keys(mods).map(section => {
       if (mods[section].length !== 0) {
         return (<div>
@@ -34,6 +35,8 @@ const { title, mods, loadOrder, img = "/hero.jpg" } = Astro.props;
         </div>)
       }
     })}
+    </details>
+  </main>
   <main class="divide-y-8 divide-slate-700">
     <details>
       <summary class="text-3xl text-white font-black uppercase my-4">Load Order</summary>
