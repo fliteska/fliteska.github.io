@@ -6,7 +6,7 @@ const readline = require('readline');
 
 (async function processLineByLine() {
   const list = [];
-  let obj = {
+  let mods = {
     DLC: [],
   };
   let currentSeparator = "DLC";
@@ -24,14 +24,31 @@ const readline = require('readline');
     list.reverse();
     list.map((mod) => {
       if (mod.startsWith("*DLC: ")) {
-        obj.DLC.push(mod.replace("*DLC: ", ""));
+        mods.DLC.push(mod.replace("*DLC: ", ""));
       } else if (mod.includes("_separator")) {
         currentSeparator = mod.replace("_separator", "").replace("-", "").replace("+", "");
-        obj[currentSeparator] = [];
+        mods[currentSeparator] = [];
       } else if (mod.startsWith("+")) {
-        obj[currentSeparator].push(mod.replace("+", ""));
+        mods[currentSeparator].push(mod.replace("+", ""));
       }
     });
+    const rl2 = readline.createInterface({
+      input: fs.createReadStream(path.join(__dirname, './loadorder.txt')),
+      crlfDelay: Infinity
+    });
+
+    const loadOrder = []
+
+    rl2.on('line', (line) => {
+      if (!line.startsWith('#')) {
+        loadOrder.push(line);
+      }
+    });
+    await events.once(rl2, 'close');
+    const obj = {
+      mods,
+      loadOrder
+    }
     fs.writeFile('rebuilding-the-commonwealth.json', JSON.stringify(obj, null, 2), 'utf8', () => {});
   } catch (err) {
     console.error(err);

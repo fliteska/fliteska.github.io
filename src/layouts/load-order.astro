@@ -8,16 +8,17 @@ interface Props {
   img?: string;
   mods: {
     [key: string]: string[],
-  }
+  },
+  loadOrder: string[]
 }
 
-const { title, mods, img = "/hero.jpg" } = Astro.props;
+const { title, mods, loadOrder, img = "/hero.jpg" } = Astro.props;
 ---
 <MySiteLayout title={title + ' | Load Orders'}>
   <Hero title={title} img={img}>
     <slot />
   </Hero>
-  <h3 class="text-3xl text-white font-black uppercase my-4">Load Order</h3>
+  <h3 class="text-3xl text-white font-black uppercase my-4">Mods</h3>
   <main class="divide-y-8 divide-slate-700">
     {Object.keys(mods).map(section => {
       if (mods[section].length !== 0) {
@@ -33,6 +34,17 @@ const { title, mods, img = "/hero.jpg" } = Astro.props;
         </div>)
       }
     })}
+  <main class="divide-y-8 divide-slate-700">
+    <details>
+      <summary class="text-3xl text-white font-black uppercase my-4">Load Order</summary>
+      <ul class="mb-4 mb-8 grid gap-4 text-white">
+        {loadOrder.map(item => (<li>
+          <span title={item} class="block bg-slate-700 p-2 truncate">
+            {item}
+          </span>
+        </li>))}
+      </ul>
+    </details>
     <Footer playlistCount={100} loadOrderCount={100} />
   </main>
 </MySiteLayout>
