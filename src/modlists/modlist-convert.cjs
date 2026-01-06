@@ -17,6 +17,7 @@ const readline = require('readline');
     });
 
     rl.on('line', (line) => {
+      console.log(`Line from file: ${line}`);
       list.push(line);
     });
 

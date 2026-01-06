@@ -6,6 +6,7 @@ export const navUrls = [
 
 export const loadOrders = [
   { title: "Rebuilding The Commonwealth", href: "/load-orders/rebuilding-the-commonwealth" },
+  { title: "Anniversary Edition", href: "/load-orders/anniversary-edition" },
 ];
 
 export const playlists = [

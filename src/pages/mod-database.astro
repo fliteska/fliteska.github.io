@@ -1,0 +1,56 @@
+---
+import Footer from '../components/Footer.astro';
+import MySiteLayout from '../layouts/main.astro';
+---
+<MySiteLayout title="Home Page">
+  <main class="divide-y-8 divide-slate-700">
+    <article class="py-8 text-3xl text-white">
+      <input id="search-term" type="text">
+      <button id="search-items">Search</button>
+        <script>
+            // async function getData() {
+            //   const mods = ['creative-clutter', 'homemaker', 'kuro-tab', 'cvc-dead-wasteland']
+            //   const modsData = await Promise.all(await mods.map(async (mod) => {
+            //     const response = await fetch('/mod-data/' + mod + '.json');
+            //     return response.json()
+            //   }))
+            //   const data: any[] = []
+            //   modsData.map(mod => { data.push(...mod)})
+            //   console.log(data)
+            //   return data
+            // }
+            async function getData() {
+              const modNames = ['FW Log Fences', 'Creative Clutter', 'Homemaker', 'CVC', 'Kuro Tab', 'FW Cloth Nets Tarps']
+              const inp = ['Log', 'Brick', 'Wood', 'Metal', 'Concrete', 'Warehouse', 'Barn', 'Vault']
+              const ins = ['Wall', 'Doorway', 'Half Wall', 'Floor', 'Half Floor', 'Roof', 'Foundation', 'Half Foundation']
+              const tags = ['decoration', 'structure', 'furniture', 'prefab']
+              const data = []
+              for (let i = 0; i < 1000; i++) {
+                const modName = modNames[Math.floor(Math.random() * modNames.length)]
+                const prefix = inp[Math.floor(Math.random() * inp.length)]
+                const suffix = ins[Math.floor(Math.random() * ins.length)]
+                data.push({
+                  modName,
+                  itemName: prefix + ' ' + suffix
+                })
+              }
+              return data
+            }
+            const modItems = await getData()
+            document.querySelector('#search-items')?.addEventListener('click', () => {
+              const searchTerm: HTMLInputElement = document.querySelector('#search-term')!.value
+              const results = modItems.filter(item => {
+                if (item.modName.toLowerCase().includes(searchTerm)) {
+                  return item
+                }
+                if (item.itemName.toLowerCase().includes(searchTerm)) {
+                  return item
+                }
+              })
+              console.log(results)
+            })
+        </script>
+    </article>
+    <Footer />
+  </main>
+</MySiteLayout>
