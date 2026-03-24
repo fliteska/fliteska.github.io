@@ -23,7 +23,6 @@ const readline = require('readline');
     await events.once(rl, 'close');
     list.reverse();
     list.map((mod) => {
-      console.log(mod, currentSeparator);
       if (mod.startsWith("*DLC: ")) {
         mods.DLC.push({ name: mod.replace("*DLC: ", "") });
       } else if (mod.includes("_separator")) {
@@ -36,16 +35,22 @@ const readline = require('readline');
           input: fs.createReadStream(`D:\\MO2\\Fallout 4\\mods\\${mod.replace("+", "")}\\meta.ini`),
           crlfDelay: Infinity
         });
+          const modObj = { name: mod.replace("+", "") };
           let modId = null;
+          let version = null;
           metaFile.on('line', (line) => {
             if (line.startsWith("modid")) {
               modId = line.split("=")[1].trim();
-              if (modId === "0") {
-                mods[tempSeparator].push({ name: mod.replace("+", "") });
-              } else {
-                mods[tempSeparator].push({ name: mod.replace("+", ""), url: `https://www.nexusmods.com/fallout4/mods/${modId}` });
-              }
+              if (modId !== "0") modObj.url = `https://www.nexusmods.com/fallout4/mods/${modId}`;
             }
+            if (line.startsWith("version")) {
+              console.log(line);
+              version = line.split("=")[1].trim();
+              if (version && version !== "") modObj.version = version;
+            }
+          });
+          metaFile.on('close', () => {
+            mods[tempSeparator].push(modObj);
           });
         } catch (err) {
           console.error(`Error processing mod ${mod}: ${err}`);
@@ -69,7 +74,7 @@ const readline = require('readline');
       mods,
       loadOrder
     }
-    fs.writeFile('rebuilding-the-commonwealth.json', JSON.stringify(obj, null, 2), 'utf8', () => {});
+    fs.writeFile('anniversary-edition-modlist.json', JSON.stringify(obj, null, 2), 'utf8', () => {});
   } catch (err) {
     console.error(err);
   }

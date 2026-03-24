@@ -26,345 +26,431 @@
     "Utilities": [
       {
         "name": "Fallout 4 Script Extender (F4SE)",
-        "url": "https://www.nexusmods.com/fallout4/mods/42147"
+        "url": "https://www.nexusmods.com/fallout4/mods/42147",
+        "version": "0.7.7.0"
       },
       {
         "name": "Address Library for F4SE Plugins",
-        "url": "https://www.nexusmods.com/fallout4/mods/47327"
+        "url": "https://www.nexusmods.com/fallout4/mods/47327",
+        "version": "1.11.191.0"
       },
       {
         "name": "Better Console - F4SE",
-        "url": "https://www.nexusmods.com/fallout4/mods/26582"
-      },
-      {
-        "name": "Addictol Crash Logger",
-        "url": "https://www.nexusmods.com/fallout4/mods/84214"
+        "url": "https://www.nexusmods.com/fallout4/mods/26582",
+        "version": "1.6.2.0"
       },
       {
         "name": "Encounter Zone Recalculation (Continuous Level Scaling)",
-        "url": "https://www.nexusmods.com/fallout4/mods/45674"
+        "url": "https://www.nexusmods.com/fallout4/mods/45674",
+        "version": "3.0.0.0"
       },
       {
-        "name": "Garden of Eden Papyrus Script Extender",
-        "url": "https://www.nexusmods.com/fallout4/mods/74160"
-      },
-      {
-        "name": "High FPS Physics Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/44798"
+        "name": "Addictol Crash Logger",
+        "url": "https://www.nexusmods.com/fallout4/mods/84214",
+        "version": "1.0.0.0"
       },
       {
         "name": "Place Everywhere",
-        "url": "https://www.nexusmods.com/fallout4/mods/9424"
+        "url": "https://www.nexusmods.com/fallout4/mods/9424",
+        "version": "1.21.1.1191"
       },
       {
         "name": "Random Encounter Framework",
-        "url": "https://www.nexusmods.com/fallout4/mods/60074"
-      },
-      {
-        "name": "Addictol",
-        "url": "https://www.nexusmods.com/fallout4/mods/84214"
+        "url": "https://www.nexusmods.com/fallout4/mods/60074",
+        "version": "f1.02"
       },
       {
         "name": "ImGui Fonts",
-        "url": "https://www.nexusmods.com/fallout4/mods/88107"
+        "url": "https://www.nexusmods.com/fallout4/mods/88107",
+        "version": "2.0.0.0"
       },
       {
         "name": "powerofthree's Photo Mode",
-        "url": "https://www.nexusmods.com/fallout4/mods/88106"
+        "url": "https://www.nexusmods.com/fallout4/mods/88106",
+        "version": "2.1.2.0"
+      },
+      {
+        "name": "Garden of Eden Papyrus Script Extender",
+        "url": "https://www.nexusmods.com/fallout4/mods/74160",
+        "version": "22.0.0.0"
+      },
+      {
+        "name": "High FPS Physics Fix",
+        "url": "https://www.nexusmods.com/fallout4/mods/44798",
+        "version": "0.8.12.0"
+      },
+      {
+        "name": "Addictol",
+        "url": "https://www.nexusmods.com/fallout4/mods/84214",
+        "version": "1.1.0.0"
       }
     ],
     "Bug Fixes": [
       {
         "name": "Unofficial Fallout 4 Patch - UFO4P",
-        "url": "https://www.nexusmods.com/fallout4/mods/4598"
-      },
-      {
-        "name": "Classic Holstered Weapons System (CHW)",
-        "url": "https://www.nexusmods.com/fallout4/mods/46101"
+        "url": "https://www.nexusmods.com/fallout4/mods/4598",
+        "version": "2.2.0.0a"
       },
       {
         "name": "Bullet Counted Reload System (BCR)",
-        "url": "https://www.nexusmods.com/fallout4/mods/41178"
+        "url": "https://www.nexusmods.com/fallout4/mods/41178",
+        "version": "f2.03"
       },
       {
         "name": "Community Fixes Merged",
-        "url": "https://www.nexusmods.com/fallout4/mods/74945"
+        "url": "https://www.nexusmods.com/fallout4/mods/74945",
+        "version": "4.3.2.0"
+      },
+      {
+        "name": "Classic Holstered Weapons System (CHW)",
+        "url": "https://www.nexusmods.com/fallout4/mods/46101",
+        "version": "f1.08"
       },
       {
         "name": "The Midnight Ride - Glitchfinder All-In-One",
-        "url": "https://www.nexusmods.com/fallout4/mods/74949"
-      },
-      {
-        "name": "Weapon Mod Fixes",
-        "url": "https://www.nexusmods.com/fallout4/mods/11130"
+        "url": "https://www.nexusmods.com/fallout4/mods/74949",
+        "version": "f2.01"
       },
       {
         "name": "Weapon Mod Fixes - CFM Patch",
-        "url": "https://www.nexusmods.com/fallout4/mods/67185"
-      },
-      {
-        "name": "Magic Effect and Spell Engine Fixes - F4SE",
-        "url": "https://www.nexusmods.com/fallout4/mods/83433"
-      },
-      {
-        "name": "Companion Shoots At Player Fix - F4SE",
-        "url": "https://www.nexusmods.com/fallout4/mods/81758"
-      },
-      {
-        "name": "Follower AI Approach Reaction Fix - F4SE",
-        "url": "https://www.nexusmods.com/fallout4/mods/92024"
-      },
-      {
-        "name": "Empty Vendor List Bug Fix - F4SE",
-        "url": "https://www.nexusmods.com/fallout4/mods/83252"
-      },
-      {
-        "name": "Wetness Shader Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/23389"
-      },
-      {
-        "name": "Fixed Gobo Effects",
-        "url": "https://www.nexusmods.com/fallout4/mods/27445"
+        "url": "https://www.nexusmods.com/fallout4/mods/67185",
+        "version": "1.0.0.0"
       },
       {
         "name": "Sprint Stuttering Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/47760"
+        "url": "https://www.nexusmods.com/fallout4/mods/47760",
+        "version": "1.4.0.0"
       },
       {
-        "name": "Flutter Flicker Fixer For Foliage",
-        "url": "https://www.nexusmods.com/fallout4/mods/79853"
+        "name": "Weapon Mod Fixes",
+        "url": "https://www.nexusmods.com/fallout4/mods/11130",
+        "version": "1.6.0.0"
+      },
+      {
+        "name": "Companion Shoots At Player Fix - F4SE",
+        "url": "https://www.nexusmods.com/fallout4/mods/81758",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Empty Vendor List Bug Fix - F4SE",
+        "url": "https://www.nexusmods.com/fallout4/mods/83252",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Magic Effect and Spell Engine Fixes - F4SE",
+        "url": "https://www.nexusmods.com/fallout4/mods/83433",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Follower AI Approach Reaction Fix - F4SE",
+        "url": "https://www.nexusmods.com/fallout4/mods/92024",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Wetness Shader Fix",
+        "url": "https://www.nexusmods.com/fallout4/mods/23389",
+        "version": "3.6.3.0"
+      },
+      {
+        "name": "Fixed Gobo Effects",
+        "url": "https://www.nexusmods.com/fallout4/mods/27445",
+        "version": "2.1.2.0"
       },
       {
         "name": "Previsibines Repair Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/46403"
+        "url": "https://www.nexusmods.com/fallout4/mods/46403",
+        "version": "74.25.0.0"
       },
       {
-        "name": "PRP Resources",
-        "url": "https://www.nexusmods.com/fallout4/mods/46403"
+        "name": "Flutter Flicker Fixer For Foliage",
+        "url": "https://www.nexusmods.com/fallout4/mods/79853",
+        "version": "1.1.0.0"
       },
       {
         "name": "Weapon Debris Crash Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/48078"
+        "url": "https://www.nexusmods.com/fallout4/mods/48078",
+        "version": "1.4.0.0"
+      },
+      {
+        "name": "PRP Resources",
+        "url": "https://www.nexusmods.com/fallout4/mods/46403",
+        "version": "74.26.0.0"
       }
     ],
     "User Interface": [
       {
-        "name": "Crafting Highlight Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/27479"
+        "name": "Workshop Highlight Fix",
+        "url": "https://www.nexusmods.com/fallout4/mods/83706",
+        "version": "1.1.0.0"
       },
       {
         "name": "Mod Configuration Menu",
-        "url": "https://www.nexusmods.com/fallout4/mods/21497"
-      },
-      {
-        "name": "Workshop Highlight Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/83706"
+        "url": "https://www.nexusmods.com/fallout4/mods/21497",
+        "version": "1.43.0.0"
       },
       {
         "name": "Dynamic Activation Key",
-        "url": "https://www.nexusmods.com/fallout4/mods/75679"
+        "url": "https://www.nexusmods.com/fallout4/mods/75679",
+        "version": "1.5.0.0"
       },
       {
         "name": "Alternative Activation Prompts",
-        "url": "https://www.nexusmods.com/fallout4/mods/75680"
+        "url": "https://www.nexusmods.com/fallout4/mods/75680",
+        "version": "2.7.3.0"
+      },
+      {
+        "name": "Crafting Highlight Fix",
+        "url": "https://www.nexusmods.com/fallout4/mods/27479",
+        "version": "2.2.0.0"
       }
     ],
     "Tweaks": [
       {
-        "name": "Assorted Modular Tweaks - ESPless",
-        "url": "https://www.nexusmods.com/fallout4/mods/84440"
-      },
-      {
-        "name": "Simple FOV Slider",
-        "url": "https://www.nexusmods.com/fallout4/mods/90072"
-      },
-      {
         "name": "Assorted Modular Tweaks - ESPless - TMR Config",
-        "url": "https://www.nexusmods.com/fallout4/mods/84440"
+        "url": "https://www.nexusmods.com/fallout4/mods/84440",
+        "version": "1.5.3.0"
       },
       {
-        "name": "Less Annoying Berry Mentats",
-        "url": "https://www.nexusmods.com/fallout4/mods/11838"
-      },
-      {
-        "name": "To Your Face FO4",
-        "url": "https://www.nexusmods.com/fallout4/mods/73259"
+        "name": "Assorted Modular Tweaks - ESPless",
+        "url": "https://www.nexusmods.com/fallout4/mods/84440",
+        "version": "1.5.3.0"
       },
       {
         "name": "Remove Ammo from Dropped Guns",
-        "url": "https://www.nexusmods.com/fallout4/mods/64426"
+        "url": "https://www.nexusmods.com/fallout4/mods/64426",
+        "version": "1.2.4.0"
+      },
+      {
+        "name": "Simple FOV Slider",
+        "url": "https://www.nexusmods.com/fallout4/mods/90072",
+        "version": "1.1.1.0"
       },
       {
         "name": "Deadeye Weapon Effect Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/57838"
+        "url": "https://www.nexusmods.com/fallout4/mods/57838",
+        "version": "1.0.0.0"
       },
       {
-        "name": "Simple Offence Suppression F4",
-        "url": "https://www.nexusmods.com/fallout4/mods/75292"
+        "name": "Less Annoying Berry Mentats",
+        "url": "https://www.nexusmods.com/fallout4/mods/11838",
+        "version": "1.0.0.0"
       },
       {
-        "name": "Faster Workbench Exit",
-        "url": "https://www.nexusmods.com/fallout4/mods/70013"
+        "name": "To Your Face FO4",
+        "url": "https://www.nexusmods.com/fallout4/mods/73259",
+        "version": "1.2.0.0"
       },
       {
         "name": "Dogmeat Follow Behind",
-        "url": "https://www.nexusmods.com/fallout4/mods/79543"
+        "url": "https://www.nexusmods.com/fallout4/mods/79543",
+        "version": "1.0.0.0"
+      },
+      {
+        "name": "Faster Workbench Exit",
+        "url": "https://www.nexusmods.com/fallout4/mods/70013",
+        "version": ".1.3"
+      },
+      {
+        "name": "Simple Offence Suppression F4",
+        "url": "https://www.nexusmods.com/fallout4/mods/75292",
+        "version": "1.2.1.0"
       }
     ],
     "Gameplay": [
       {
         "name": "Simple Everyone's Best Friend",
-        "url": "https://www.nexusmods.com/fallout4/mods/92314"
-      },
-      {
-        "name": "Integrated Addons",
-        "url": "https://www.nexusmods.com/fallout4/mods/92016"
+        "url": "https://www.nexusmods.com/fallout4/mods/92314",
+        "version": "1.1.1.0"
       },
       {
         "name": "Who's The General - Minutemen Quest Cleanup",
-        "url": "https://www.nexusmods.com/fallout4/mods/59019"
-      },
-      {
-        "name": "1 - Keep Radiants in the Commonwealth Patch",
-        "url": "https://www.nexusmods.com/fallout4/mods/59019"
+        "url": "https://www.nexusmods.com/fallout4/mods/59019",
+        "version": "1.14.0.0"
       },
       {
         "name": "Keep Radiants in the Commonwealth UFO4P Version",
-        "url": "https://www.nexusmods.com/fallout4/mods/56089"
+        "url": "https://www.nexusmods.com/fallout4/mods/56089",
+        "version": "1.3.0.0"
       },
       {
-        "name": "No Sneaking in Power Armor",
-        "url": "https://www.nexusmods.com/fallout4/mods/75430"
+        "name": "1 - Keep Radiants in the Commonwealth Patch",
+        "url": "https://www.nexusmods.com/fallout4/mods/59019",
+        "version": "1.14.0.0"
       },
       {
-        "name": "Legendaries They Can Use",
-        "url": "https://www.nexusmods.com/fallout4/mods/61411"
-      },
-      {
-        "name": "Hit Those Objects",
-        "url": "https://www.nexusmods.com/fallout4/mods/85755"
+        "name": "Integrated Addons",
+        "url": "https://www.nexusmods.com/fallout4/mods/92016",
+        "version": "f1.04"
       },
       {
         "name": "Hit Those Explosives",
-        "url": "https://www.nexusmods.com/fallout4/mods/82592"
+        "url": "https://www.nexusmods.com/fallout4/mods/82592",
+        "version": "1.6.1.0"
+      },
+      {
+        "name": "No Sneaking in Power Armor",
+        "url": "https://www.nexusmods.com/fallout4/mods/75430",
+        "version": "3.0.2.0"
+      },
+      {
+        "name": "Hit Those Objects",
+        "url": "https://www.nexusmods.com/fallout4/mods/85755",
+        "version": "2.1.0.0"
+      },
+      {
+        "name": "Legendaries They Can Use",
+        "url": "https://www.nexusmods.com/fallout4/mods/61411",
+        "version": "2.5.0.0"
       }
     ],
     "Content": [
       {
-        "name": "You And What Army 2",
-        "url": "https://www.nexusmods.com/fallout4/mods/78925"
-      },
-      {
         "name": "More Weathervanes",
-        "url": "https://www.nexusmods.com/fallout4/mods/89596"
-      },
-      {
-        "name": "More Diamond City Bounties",
-        "url": "https://www.nexusmods.com/fallout4/mods/95047"
+        "url": "https://www.nexusmods.com/fallout4/mods/89596",
+        "version": "f1.00"
       },
       {
         "name": "Legendary Mutation Messages Fix - Cut Content Restored",
-        "url": "https://www.nexusmods.com/fallout4/mods/63929"
+        "url": "https://www.nexusmods.com/fallout4/mods/63929",
+        "version": "1.1.0.0"
+      },
+      {
+        "name": "More Diamond City Bounties",
+        "url": "https://www.nexusmods.com/fallout4/mods/95047",
+        "version": "f1.03"
+      },
+      {
+        "name": "You And What Army 2",
+        "url": "https://www.nexusmods.com/fallout4/mods/78925",
+        "version": "f1.08"
       }
     ],
     "Visuals": [
       {
         "name": "Lightweight Lighting - A weather and interior lighting overhaul",
-        "url": "https://www.nexusmods.com/fallout4/mods/57680"
-      },
-      {
-        "name": "Gloomy Glass - All transparent materials revised",
-        "url": "https://www.nexusmods.com/fallout4/mods/62518"
+        "url": "https://www.nexusmods.com/fallout4/mods/57680",
+        "version": "5.0.1.0"
       },
       {
         "name": "Targeted Textures - Vanilla textures upscaled fixed and sized",
-        "url": "https://www.nexusmods.com/fallout4/mods/62958"
+        "url": "https://www.nexusmods.com/fallout4/mods/62958",
+        "version": "2.5.1.0"
       },
       {
-        "name": "Fallout 4 Particle Patch - No More Glowing Objects",
-        "url": "https://www.nexusmods.com/fallout4/mods/68599"
+        "name": "Gloomy Glass - All transparent materials revised",
+        "url": "https://www.nexusmods.com/fallout4/mods/62518",
+        "version": "1.2.0.0"
       },
       {
         "name": "Depth of Field Effect ESP",
-        "url": "https://www.nexusmods.com/fallout4/mods/29922"
+        "url": "https://www.nexusmods.com/fallout4/mods/29922",
+        "version": "1.0.0.0"
       },
       {
-        "name": "Sniper Scope Overlay And Reticle Replacement",
-        "url": "https://www.nexusmods.com/fallout4/mods/29922"
+        "name": "Fallout 4 Particle Patch - No More Glowing Objects",
+        "url": "https://www.nexusmods.com/fallout4/mods/68599",
+        "version": "1.3.2.0"
       },
       {
         "name": "Diamond City Billboards",
-        "url": "https://www.nexusmods.com/fallout4/mods/71990"
+        "url": "https://www.nexusmods.com/fallout4/mods/71990",
+        "version": "f1.01"
       },
       {
         "name": "Goodneighbor View",
-        "url": "https://www.nexusmods.com/fallout4/mods/72021"
+        "url": "https://www.nexusmods.com/fallout4/mods/72021",
+        "version": "f1.00"
+      },
+      {
+        "name": "Sniper Scope Overlay And Reticle Replacement",
+        "url": "https://www.nexusmods.com/fallout4/mods/29922",
+        "version": "1.0.0.0"
       },
       {
         "name": "Enhanced Vanilla Water",
-        "url": "https://www.nexusmods.com/fallout4/mods/97214"
+        "url": "https://www.nexusmods.com/fallout4/mods/97214",
+        "version": "2.1.0.0"
       },
       {
         "name": "Diamond City Supplements",
-        "url": "https://www.nexusmods.com/fallout4/mods/75054"
+        "url": "https://www.nexusmods.com/fallout4/mods/75054",
+        "version": "2.0.0.0"
       }
     ],
     "Creation Club": [
       {
-        "name": "Vault Suit Customization"
+        "name": "Vault Suit Customization",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Virtual Workshop"
+        "name": "Arcade Workshop Pack",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Arcade Workshop Pack"
+        "name": "Capital Wasteland Mercenaries",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Capital Wasteland Mercenaries"
+        "name": "Captain Cosmos",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Captain Cosmos"
+        "name": "Virtual Workshop",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Charlestown Condo"
+        "name": "Coffee and Donuts Workshop Pack",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Coffee and Donuts Workshop Pack"
+        "name": "Charlestown Condo",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Holiday Workshop Pack"
+        "name": "Modular Military Backpack",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Home Decor Workshop Pack"
+        "name": "Home Decor Workshop Pack",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Modern Furniture Workshop Pack"
+        "name": "Neon Flats",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Modular Military Backpack"
+        "name": "Holiday Workshop Pack",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Noir Penthouse"
+        "name": "Modern Furniture Workshop Pack",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Nuka-Cola Collector Workshop"
+        "name": "Nuka-Cola Collector Workshop",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Settlement Ambush Kit"
+        "name": "Settlement Ambush Kit",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Neon Flats"
+        "name": "Noir Penthouse",
+        "version": "d2020.11.4"
       },
       {
-        "name": "Shroud Manor"
+        "name": "Shroud Manor",
+        "version": "d2020.11.4"
       },
       {
         "name": "Creation Club patch - Home Decor Workshop Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/28243"
+        "url": "https://www.nexusmods.com/fallout4/mods/28243",
+        "version": "1.0.0.0"
       },
       {
         "name": "Creation Club Patch - No Workshop Categories",
-        "url": "https://www.nexusmods.com/fallout4/mods/65788"
+        "url": "https://www.nexusmods.com/fallout4/mods/65788",
+        "version": "1.0.0.0"
       }
     ],
     "Creations": [
@@ -372,513 +458,627 @@
         "name": "Homemaker"
       },
       {
-        "name": "Do It Yourshelf"
+        "name": "Creative Clutter"
       },
       {
-        "name": "Creative Clutter"
+        "name": "Do It Yourshelf"
       }
     ],
     "Extra Utilities": [
       {
         "name": "Faster Workshop AE (F4SE)",
-        "url": "https://www.nexusmods.com/fallout4/mods/100532"
-      },
-      {
-        "name": "HUDFramework",
-        "url": "https://www.nexusmods.com/fallout4/mods/20309"
+        "url": "https://www.nexusmods.com/fallout4/mods/100532",
+        "version": "1.0.0.0"
       },
       {
         "name": "Workshop Framework",
-        "url": "https://www.nexusmods.com/fallout4/mods/35004"
-      },
-      {
-        "name": "Settlement Menu Manager",
-        "url": "https://www.nexusmods.com/fallout4/mods/24204"
-      },
-      {
-        "name": "Extended Dialogue Interface",
-        "url": "https://www.nexusmods.com/fallout4/mods/27216"
+        "url": "https://www.nexusmods.com/fallout4/mods/35004",
+        "version": "2.4.11.0"
       },
       {
         "name": "Workshop Plus",
-        "url": "https://www.nexusmods.com/fallout4/mods/35005"
+        "url": "https://www.nexusmods.com/fallout4/mods/35005",
+        "version": "1.0.15.0a"
       },
       {
-        "name": "Cheat Terminal",
-        "url": "https://www.nexusmods.com/fallout4/mods/13285"
+        "name": "HUDFramework",
+        "url": "https://www.nexusmods.com/fallout4/mods/20309",
+        "version": "1.0.0.0f"
       },
       {
-        "name": "Clean My Settlement REDUX",
-        "url": "https://www.nexusmods.com/fallout4/mods/58757"
+        "name": "Settlement Menu Manager",
+        "url": "https://www.nexusmods.com/fallout4/mods/24204",
+        "version": "0.1.7.0"
       },
       {
-        "name": "Conquest - Build New Settlements and Camping",
-        "url": "https://www.nexusmods.com/fallout4/mods/12511"
+        "name": "Extended Dialogue Interface",
+        "url": "https://www.nexusmods.com/fallout4/mods/27216",
+        "version": "1.4.3.0"
       },
       {
         "name": "Better Settlers",
-        "url": "https://www.nexusmods.com/fallout4/mods/4772"
+        "url": "https://www.nexusmods.com/fallout4/mods/4772",
+        "version": "2.0.0.0"
       },
       {
-        "name": "Real Name Settlers",
-        "url": "https://www.nexusmods.com/fallout4/mods/44978"
+        "name": "Cheat Terminal",
+        "url": "https://www.nexusmods.com/fallout4/mods/13285",
+        "version": "1.74.0.0"
+      },
+      {
+        "name": "Clean My Settlement REDUX",
+        "url": "https://www.nexusmods.com/fallout4/mods/58757",
+        "version": "7.0.0.0"
       },
       {
         "name": "Real Name Settlers Expanded",
-        "url": "https://www.nexusmods.com/fallout4/mods/74352"
+        "url": "https://www.nexusmods.com/fallout4/mods/74352",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Real Name Settlers",
+        "url": "https://www.nexusmods.com/fallout4/mods/44978",
+        "version": "1.1.1.0"
       },
       {
         "name": "All Settlements Extended",
-        "url": "https://www.nexusmods.com/fallout4/mods/25316"
+        "url": "https://www.nexusmods.com/fallout4/mods/25316",
+        "version": "2.0.2.0"
+      },
+      {
+        "name": "Conquest - Build New Settlements and Camping",
+        "url": "https://www.nexusmods.com/fallout4/mods/12511",
+        "version": "1.3.0.0"
       }
     ],
     "Extra Bug Fixes": [
       {
         "name": "Robot Vendors and Doctors Dialogue Fix",
-        "url": "https://www.nexusmods.com/fallout4/mods/32220"
+        "url": "https://www.nexusmods.com/fallout4/mods/32220",
+        "version": "0.61.0.0b"
       },
       {
         "name": "Moddable Robot Settlers Compilation (Automatron)",
-        "url": "https://www.nexusmods.com/fallout4/mods/11976"
+        "url": "https://www.nexusmods.com/fallout4/mods/11976",
+        "version": "1.16.0.0"
       }
     ],
     "Extra Visuals": [
       {
-        "name": "NAC X - NATURAL AND ATMOSPHERIC COMMONWEALTH 10 - Legacy Edition",
-        "url": "https://www.nexusmods.com/fallout4/mods/46722"
+        "name": "FlaconOil's Complete Retexture Project",
+        "url": "https://www.nexusmods.com/fallout4/mods/3747",
+        "version": "4.2.0.0"
       },
       {
-        "name": "FlaconOil's Complete Retexture Project",
-        "url": "https://www.nexusmods.com/fallout4/mods/3747"
+        "name": "NAC X - NATURAL AND ATMOSPHERIC COMMONWEALTH 10 - Legacy Edition",
+        "url": "https://www.nexusmods.com/fallout4/mods/46722",
+        "version": "1.0.0.0"
       },
       {
         "name": "Vivid Fallout HD Textures - All in One",
-        "url": "https://www.nexusmods.com/fallout4/mods/25714"
+        "url": "https://www.nexusmods.com/fallout4/mods/25714",
+        "version": "2.0.0.0"
       },
       {
         "name": "Nuka-Mix Unique Textures",
-        "url": "https://www.nexusmods.com/fallout4/mods/21604"
+        "url": "https://www.nexusmods.com/fallout4/mods/21604",
+        "version": "1.2.2.0"
       },
       {
-        "name": "Ghoulification"
+        "name": "Ghoulification",
+        "version": "d2025.12.4"
       }
     ],
     "Armors": [
       {
-        "name": "Ballistic Mask"
+        "name": "The Minutemen Outfit Pack (Militia)",
+        "url": "https://www.nexusmods.com/fallout4/mods/97011",
+        "version": "1.0.2.1"
       },
       {
         "name": "Security Armor (Modular Over-Armor)",
-        "url": "https://www.nexusmods.com/fallout4/mods/83822"
+        "url": "https://www.nexusmods.com/fallout4/mods/83822",
+        "version": "1.0.1.0"
       },
       {
-        "name": "The Minutemen Outfit Pack (Militia)",
-        "url": "https://www.nexusmods.com/fallout4/mods/97011"
+        "name": "Ballistic Mask"
       }
     ],
     "Weapons": [
       {
         "name": "Munitions - Ammo Expansion Project",
-        "url": "https://www.nexusmods.com/fallout4/mods/66051"
+        "url": "https://www.nexusmods.com/fallout4/mods/66051",
+        "version": "1.3.3.0"
       }
     ],
     "Settlement Objects": [
       {
         "name": "The Kuro Tab",
-        "url": "https://www.nexusmods.com/fallout4/mods/35436"
+        "url": "https://www.nexusmods.com/fallout4/mods/35436",
+        "version": "1.2.1.0"
       },
       {
         "name": "cVc Dead Wasteland 6 - DLC1",
-        "url": "https://www.nexusmods.com/fallout4/mods/43818"
+        "url": "https://www.nexusmods.com/fallout4/mods/43818",
+        "version": "2.0.0.0"
       },
       {
         "name": "cVc Dead Wasteland 6 - DLC2",
-        "url": "https://www.nexusmods.com/fallout4/mods/43818"
-      },
-      {
-        "name": "cVc Dead Wasteland 6 - DLC3",
-        "url": "https://www.nexusmods.com/fallout4/mods/43818"
-      },
-      {
-        "name": "cVc Dead Wasteland",
-        "url": "https://www.nexusmods.com/fallout4/mods/43818"
-      },
-      {
-        "name": "Just Debris - Craftable Decoration",
-        "url": "https://www.nexusmods.com/fallout4/mods/21359"
+        "url": "https://www.nexusmods.com/fallout4/mods/43818",
+        "version": "2.0.0.0"
       },
       {
         "name": "OCDecorator",
-        "url": "https://www.nexusmods.com/fallout4/mods/4270"
+        "url": "https://www.nexusmods.com/fallout4/mods/4270",
+        "version": "1.1.3.0"
       },
       {
         "name": "Workshop Junk Wall Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/25187"
+        "url": "https://www.nexusmods.com/fallout4/mods/25187",
+        "version": "1.3.0.0"
       },
       {
         "name": "More Prefabs",
-        "url": "https://www.nexusmods.com/fallout4/mods/54506"
+        "url": "https://www.nexusmods.com/fallout4/mods/54506",
+        "version": "1.1.0.0"
+      },
+      {
+        "name": "cVc Dead Wasteland",
+        "url": "https://www.nexusmods.com/fallout4/mods/43818",
+        "version": "6.8.0.0a"
+      },
+      {
+        "name": "cVc Dead Wasteland 6 - DLC3",
+        "url": "https://www.nexusmods.com/fallout4/mods/43818",
+        "version": "2.2.0.0"
       },
       {
         "name": "The Master Plan",
-        "url": "https://www.nexusmods.com/fallout4/mods/16626"
+        "url": "https://www.nexusmods.com/fallout4/mods/16626",
+        "version": "2.3.0.0"
       },
       {
         "name": "Vanilla Extensions",
-        "url": "https://www.nexusmods.com/fallout4/mods/10032"
+        "url": "https://www.nexusmods.com/fallout4/mods/10032",
+        "version": "2.6.0.0"
       },
       {
-        "name": "Stairs Ladders Ramps",
-        "url": "https://www.nexusmods.com/fallout4/mods/10495"
+        "name": "Just Debris - Craftable Decoration",
+        "url": "https://www.nexusmods.com/fallout4/mods/21359",
+        "version": "1.0.0.0"
       },
       {
         "name": "Port Royal",
-        "url": "https://www.nexusmods.com/fallout4/mods/11579"
+        "url": "https://www.nexusmods.com/fallout4/mods/11579",
+        "version": "1.7.0.0"
       },
       {
         "name": "The Cabin in the Woods",
-        "url": "https://www.nexusmods.com/fallout4/mods/15938"
+        "url": "https://www.nexusmods.com/fallout4/mods/15938",
+        "version": "2.0.0.0"
       },
       {
-        "name": "Castle in the Sky",
-        "url": "https://www.nexusmods.com/fallout4/mods/25362"
+        "name": "Stairs Ladders Ramps",
+        "url": "https://www.nexusmods.com/fallout4/mods/10495",
+        "version": "1.6.0.0"
       },
       {
         "name": "Border Junk",
-        "url": "https://www.nexusmods.com/fallout4/mods/28028"
-      },
-      {
-        "name": "Atom's Greatness",
-        "url": "https://www.nexusmods.com/fallout4/mods/19857"
-      },
-      {
-        "name": "Bob's Iguana Diner",
-        "url": "https://www.nexusmods.com/fallout4/mods/19133"
+        "url": "https://www.nexusmods.com/fallout4/mods/28028",
+        "version": "1.0.0.0"
       },
       {
         "name": "Box Houses",
-        "url": "https://www.nexusmods.com/fallout4/mods/17160"
+        "url": "https://www.nexusmods.com/fallout4/mods/17160",
+        "version": "1.1.0.0"
       },
       {
-        "name": "Wasteland Billboards",
-        "url": "https://www.nexusmods.com/fallout4/mods/12017"
+        "name": "Bob's Iguana Diner",
+        "url": "https://www.nexusmods.com/fallout4/mods/19133",
+        "version": "1.1.0.0"
       },
       {
-        "name": "Pipe Galore",
-        "url": "https://www.nexusmods.com/fallout4/mods/10845"
+        "name": "Castle in the Sky",
+        "url": "https://www.nexusmods.com/fallout4/mods/25362",
+        "version": "1.2.0.0"
+      },
+      {
+        "name": "Atom's Greatness",
+        "url": "https://www.nexusmods.com/fallout4/mods/19857",
+        "version": "1.1.0.0"
       },
       {
         "name": "Red Rocket Reborn",
-        "url": "https://www.nexusmods.com/fallout4/mods/11128"
+        "url": "https://www.nexusmods.com/fallout4/mods/11128",
+        "version": "1.8.0.0"
+      },
+      {
+        "name": "Pipe Galore",
+        "url": "https://www.nexusmods.com/fallout4/mods/10845",
+        "version": "1.5.0.0"
       },
       {
         "name": "Workshop Power Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/49505"
+        "url": "https://www.nexusmods.com/fallout4/mods/49505",
+        "version": "0.2.0.0"
       },
       {
-        "name": "Wooden Prefabs Extended",
-        "url": "https://www.nexusmods.com/fallout4/mods/10140"
+        "name": "Wasteland Billboards",
+        "url": "https://www.nexusmods.com/fallout4/mods/12017",
+        "version": "1.2.0.0"
       },
       {
         "name": "Climbable Ladders for Settlements",
-        "url": "https://www.nexusmods.com/fallout4/mods/62738"
+        "url": "https://www.nexusmods.com/fallout4/mods/62738",
+        "version": "1.1.0.0"
       },
       {
-        "name": "Chuck Yufarley Collection",
-        "url": "https://www.nexusmods.com/fallout4/mods/69043"
-      },
-      {
-        "name": "Chuck Yufarley Collection - Security Wall Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/69342"
+        "name": "Wooden Prefabs Extended",
+        "url": "https://www.nexusmods.com/fallout4/mods/10140",
+        "version": "1.21.0.0"
       },
       {
         "name": "A Little More Grounded",
-        "url": "https://www.nexusmods.com/fallout4/mods/55729"
+        "url": "https://www.nexusmods.com/fallout4/mods/55729",
+        "version": "1.0.1.0"
       },
       {
-        "name": "Chuck Yufarley Collection - Log Building Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/69246"
+        "name": "Chuck Yufarley Collection",
+        "url": "https://www.nexusmods.com/fallout4/mods/69043",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Chuck Yufarley Collection - Security Wall Set",
+        "url": "https://www.nexusmods.com/fallout4/mods/69342",
+        "version": "2.0.0.0"
       },
       {
         "name": "Chuck Yufarley Collection - Barracks Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/69144"
-      },
-      {
-        "name": "Chuck Yufarley Collection - Greenhouse Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/69094"
-      },
-      {
-        "name": "WoodWallsFab",
-        "url": "https://www.nexusmods.com/fallout4/mods/84884"
-      },
-      {
-        "name": "Chuck Yufarley Collection - More Signs",
-        "url": "https://www.nexusmods.com/fallout4/mods/89835"
+        "url": "https://www.nexusmods.com/fallout4/mods/69144",
+        "version": "2.0.0.0"
       },
       {
         "name": "Chuck Yufarley Collection - Diner Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/89838"
+        "url": "https://www.nexusmods.com/fallout4/mods/89838",
+        "version": "1.1.0.0"
+      },
+      {
+        "name": "WoodWallsFab",
+        "url": "https://www.nexusmods.com/fallout4/mods/84884",
+        "version": "1.0.0.0"
+      },
+      {
+        "name": "Chuck Yufarley Collection - Log Building Set",
+        "url": "https://www.nexusmods.com/fallout4/mods/69246",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Chuck Yufarley Collection - More Signs",
+        "url": "https://www.nexusmods.com/fallout4/mods/89835",
+        "version": "1.2.0.0"
+      },
+      {
+        "name": "Chuck Yufarley Collection - Greenhouse Set",
+        "url": "https://www.nexusmods.com/fallout4/mods/69094",
+        "version": "2.0.0.0"
       },
       {
         "name": "ALUMINUM_WALLS_ESL",
-        "url": "https://www.nexusmods.com/fallout4/mods/81399"
-      },
-      {
-        "name": "Anom's Workshop - Trash and Debris Menu",
-        "url": "https://www.nexusmods.com/fallout4/mods/78547"
+        "url": "https://www.nexusmods.com/fallout4/mods/81399",
+        "version": "1.0.0.0"
       },
       {
         "name": "Anom's Workshop - Core",
-        "url": "https://www.nexusmods.com/fallout4/mods/78546"
+        "url": "https://www.nexusmods.com/fallout4/mods/78546",
+        "version": "1.1.0.0"
       },
       {
         "name": "Snap'n Build 2.0",
-        "url": "https://www.nexusmods.com/fallout4/mods/28834"
+        "url": "https://www.nexusmods.com/fallout4/mods/28834",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "Anom's Workshop - Trash and Debris Menu",
+        "url": "https://www.nexusmods.com/fallout4/mods/78547",
+        "version": "1.0.0.0"
       },
       {
         "name": "Spirit of Steel - Brotherhood Decor Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/36068"
-      },
-      {
-        "name": "MJC - Junkyard Construction Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/41954"
-      },
-      {
-        "name": "A Better World - Cabin Workshop Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/79074"
+        "url": "https://www.nexusmods.com/fallout4/mods/36068",
+        "version": "1.1.0.0"
       },
       {
         "name": "Build Your Own Pool",
-        "url": "https://www.nexusmods.com/fallout4/mods/13316"
+        "url": "https://www.nexusmods.com/fallout4/mods/13316",
+        "version": "4.0.0.0"
       },
       {
-        "name": "Fallout 3 Styled Vaults",
-        "url": "https://www.nexusmods.com/fallout4/mods/50135"
+        "name": "A Better World - Cabin Workshop Pack",
+        "url": "https://www.nexusmods.com/fallout4/mods/79074",
+        "version": "f1.03"
       },
       {
-        "name": "Better Armory Mod (BAM) - Weapon Racks and More",
-        "url": "https://www.nexusmods.com/fallout4/mods/42123"
+        "name": "MJC - Junkyard Construction Set",
+        "url": "https://www.nexusmods.com/fallout4/mods/41954",
+        "version": "1.0.0.0"
       },
       {
         "name": "Stain's Structures",
-        "url": "https://www.nexusmods.com/fallout4/mods/30082"
-      },
-      {
-        "name": "Workshop Decorations Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/27787"
+        "url": "https://www.nexusmods.com/fallout4/mods/30082",
+        "version": "0.1.0.0"
       },
       {
         "name": "G2M - Workshop",
-        "url": "https://www.nexusmods.com/fallout4/mods/17088"
+        "url": "https://www.nexusmods.com/fallout4/mods/17088",
+        "version": "6.1.2.0"
       },
       {
-        "name": "Zebrina's Workshop Devices",
-        "url": "https://www.nexusmods.com/fallout4/mods/24678"
+        "name": "Fallout 3 Styled Vaults",
+        "url": "https://www.nexusmods.com/fallout4/mods/50135",
+        "version": "2.1.0.0"
       },
       {
-        "name": "Zebrina's Workshop Devices - Elevator Patch",
-        "url": "https://www.nexusmods.com/fallout4/mods/24678"
+        "name": "Better Armory Mod (BAM) - Weapon Racks and More",
+        "url": "https://www.nexusmods.com/fallout4/mods/42123",
+        "version": "1.0.2.0"
+      },
+      {
+        "name": "Workshop Decorations Pack",
+        "url": "https://www.nexusmods.com/fallout4/mods/27787",
+        "version": "1.1.0.0"
       },
       {
         "name": "Craftable Animation Marker (Relaxation Furniture)",
-        "url": "https://www.nexusmods.com/fallout4/mods/10012"
+        "url": "https://www.nexusmods.com/fallout4/mods/10012",
+        "version": "1.3.0.0"
       },
       {
-        "name": "Workshop Vanilla Idles",
-        "url": "https://www.nexusmods.com/fallout4/mods/68029"
+        "name": "Zebrina's Workshop Devices - Elevator Patch",
+        "url": "https://www.nexusmods.com/fallout4/mods/24678",
+        "version": "2.6.3.0"
+      },
+      {
+        "name": "Zebrina's Workshop Devices",
+        "url": "https://www.nexusmods.com/fallout4/mods/24678",
+        "version": "2.6.2.0"
       },
       {
         "name": "Guard Post Markers (plus Guards Display Weapons Fix)",
-        "url": "https://www.nexusmods.com/fallout4/mods/71785"
+        "url": "https://www.nexusmods.com/fallout4/mods/71785",
+        "version": "2.3.0.0"
       },
       {
-        "name": "Settlement Objects Expansion Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/10075"
-      },
-      {
-        "name": "Thematic and Practical - DLC",
-        "url": "https://www.nexusmods.com/fallout4/mods/16207"
+        "name": "Workshop Vanilla Idles",
+        "url": "https://www.nexusmods.com/fallout4/mods/68029",
+        "version": "2.0.0.0"
       },
       {
         "name": "Thematic and Practical - Workshop Settlements - Structures and Furnitures",
-        "url": "https://www.nexusmods.com/fallout4/mods/16207"
+        "url": "https://www.nexusmods.com/fallout4/mods/16207",
+        "version": "Alpha1.3"
+      },
+      {
+        "name": "Thematic and Practical - DLC",
+        "url": "https://www.nexusmods.com/fallout4/mods/16207",
+        "version": "Alpha1.0b"
       },
       {
         "name": "Warehouse Extension Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/28220"
-      },
-      {
-        "name": "Snappy HouseKit",
-        "url": "https://www.nexusmods.com/fallout4/mods/11639"
+        "url": "https://www.nexusmods.com/fallout4/mods/28220",
+        "version": "3.1.17.0"
       },
       {
         "name": "Vanilla Barn Additions",
-        "url": "https://www.nexusmods.com/fallout4/mods/23238"
+        "url": "https://www.nexusmods.com/fallout4/mods/23238",
+        "version": "2.0.3.0"
       },
       {
-        "name": "Akira's Clutter",
-        "url": "https://www.nexusmods.com/fallout4/mods/29495"
-      },
-      {
-        "name": "Nuka World Shopper's Paradise",
-        "url": "https://www.nexusmods.com/fallout4/mods/27346"
+        "name": "Snappy HouseKit",
+        "url": "https://www.nexusmods.com/fallout4/mods/11639",
+        "version": "9.2.2.0"
       },
       {
         "name": "Woody's Wasteland Stuff",
-        "url": "https://www.nexusmods.com/fallout4/mods/24951"
+        "url": "https://www.nexusmods.com/fallout4/mods/24951",
+        "version": "4.0.0.0"
       },
       {
-        "name": "Faction Workshop Manager",
-        "url": "https://www.nexusmods.com/fallout4/mods/92856"
+        "name": "Akira's Clutter",
+        "url": "https://www.nexusmods.com/fallout4/mods/29495",
+        "version": "0.691.0.0"
       },
       {
         "name": "Settlement Activity Markers",
-        "url": "https://www.nexusmods.com/fallout4/mods/20651"
+        "url": "https://www.nexusmods.com/fallout4/mods/20651",
+        "version": "1.7.3.0"
+      },
+      {
+        "name": "Nuka World Shopper's Paradise",
+        "url": "https://www.nexusmods.com/fallout4/mods/27346",
+        "version": "2.10.4.0"
+      },
+      {
+        "name": "Faction Workshop Manager",
+        "url": "https://www.nexusmods.com/fallout4/mods/92856",
+        "version": "1.1.0.0"
       },
       {
         "name": "General Dave's Wasteland Walls",
-        "url": "https://www.nexusmods.com/fallout4/mods/26008"
-      },
-      {
-        "name": "Minutemen Morale Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/16715"
-      },
-      {
-        "name": "Kamuro Neon",
-        "url": "https://www.nexusmods.com/fallout4/mods/44757"
+        "url": "https://www.nexusmods.com/fallout4/mods/26008",
+        "version": "1.2.0.0"
       },
       {
         "name": "Invisible Furniture",
-        "url": "https://www.nexusmods.com/fallout4/mods/13343"
+        "url": "https://www.nexusmods.com/fallout4/mods/13343",
+        "version": "4.21.0.0"
+      },
+      {
+        "name": "Kamuro Neon",
+        "url": "https://www.nexusmods.com/fallout4/mods/44757",
+        "version": "1.1.0.0"
+      },
+      {
+        "name": "Minutemen Morale Pack",
+        "url": "https://www.nexusmods.com/fallout4/mods/16715",
+        "version": "4.0.0.0"
       },
       {
         "name": "Settlement Objects Combined - Lore Friendly",
-        "url": "https://www.nexusmods.com/fallout4/mods/36461"
-      },
-      {
-        "name": "Craftable Greebles",
-        "url": "https://www.nexusmods.com/fallout4/mods/15229"
+        "url": "https://www.nexusmods.com/fallout4/mods/36461",
+        "version": "2.4.0.0"
       },
       {
         "name": "MDE2506's mostly colorful and modular hotchpotch and other stuff",
-        "url": "https://www.nexusmods.com/fallout4/mods/47920"
+        "url": "https://www.nexusmods.com/fallout4/mods/47920",
+        "version": "1.11.0.0"
       },
       {
-        "name": "Armor Tables",
-        "url": "https://www.nexusmods.com/fallout4/mods/14986"
+        "name": "Craftable Greebles",
+        "url": "https://www.nexusmods.com/fallout4/mods/15229",
+        "version": "1.53.0.0"
       },
       {
         "name": "Graf's Security Fences",
-        "url": "https://www.nexusmods.com/fallout4/mods/39252"
+        "url": "https://www.nexusmods.com/fallout4/mods/39252",
+        "version": "1.5.2.0"
+      },
+      {
+        "name": "Armor Tables",
+        "url": "https://www.nexusmods.com/fallout4/mods/14986",
+        "version": "1.7.0.0"
       },
       {
         "name": "More Scavenging Stations",
-        "url": "https://www.nexusmods.com/fallout4/mods/27004"
+        "url": "https://www.nexusmods.com/fallout4/mods/27004",
+        "version": "1.1.0.0"
       },
       {
         "name": "Smoking Chimneys - For Industry and Homesteads",
-        "url": "https://www.nexusmods.com/fallout4/mods/63122"
-      },
-      {
-        "name": "Scarecrows",
-        "url": "https://www.nexusmods.com/fallout4/mods/67931"
-      },
-      {
-        "name": "Placeable FX - Waterfalls Fire Fog and More",
-        "url": "https://www.nexusmods.com/fallout4/mods/60974"
+        "url": "https://www.nexusmods.com/fallout4/mods/63122",
+        "version": "1.0.0.0"
       },
       {
         "name": "Ziplines and Treehouses - Also longer power lines",
-        "url": "https://www.nexusmods.com/fallout4/mods/60389"
+        "url": "https://www.nexusmods.com/fallout4/mods/60389",
+        "version": "f1.02"
       },
       {
-        "name": "More Scavenging Stations - For Scrapyards or Junkyards",
-        "url": "https://www.nexusmods.com/fallout4/mods/64356"
+        "name": "Scarecrows",
+        "url": "https://www.nexusmods.com/fallout4/mods/67931",
+        "version": "1.0.0.0"
+      },
+      {
+        "name": "Placeable FX - Waterfalls Fire Fog and More",
+        "url": "https://www.nexusmods.com/fallout4/mods/60974",
+        "version": "1.0.0.0"
       },
       {
         "name": "New Shack Walls",
-        "url": "https://www.nexusmods.com/fallout4/mods/55757"
-      },
-      {
-        "name": "The Wasteland Garage - Resources 2",
-        "url": "https://www.nexusmods.com/fallout4/mods/40812"
-      },
-      {
-        "name": "The Wasteland Garage - Resource 1",
-        "url": "https://www.nexusmods.com/fallout4/mods/40812"
-      },
-      {
-        "name": "Taxidermy Expanded",
-        "url": "https://www.nexusmods.com/fallout4/mods/19570"
-      },
-      {
-        "name": "Rebuild - Modular Sanctuary Pre-War and Post-War Build Set",
-        "url": "https://www.nexusmods.com/fallout4/mods/15773"
-      },
-      {
-        "name": "Visible Idle Markers",
-        "url": "https://www.nexusmods.com/fallout4/mods/46453"
-      },
-      {
-        "name": "Craftable Coffee",
-        "url": "https://www.nexusmods.com/fallout4/mods/12162"
+        "url": "https://www.nexusmods.com/fallout4/mods/55757",
+        "version": "f1.02"
       },
       {
         "name": "The Wasteland Garage",
-        "url": "https://www.nexusmods.com/fallout4/mods/40812"
+        "url": "https://www.nexusmods.com/fallout4/mods/40812",
+        "version": "1.4.0.0"
       },
       {
-        "name": "Colorful Bottle Lanterns",
-        "url": "https://www.nexusmods.com/fallout4/mods/22309"
+        "name": "More Scavenging Stations - For Scrapyards or Junkyards",
+        "url": "https://www.nexusmods.com/fallout4/mods/64356",
+        "version": "1.1.0.0"
+      },
+      {
+        "name": "The Wasteland Garage - Resources 2",
+        "url": "https://www.nexusmods.com/fallout4/mods/40812",
+        "version": "1.4.0.0"
+      },
+      {
+        "name": "Rebuild - Modular Sanctuary Pre-War and Post-War Build Set",
+        "url": "https://www.nexusmods.com/fallout4/mods/15773",
+        "version": "0.98.0.0"
+      },
+      {
+        "name": "Visible Idle Markers",
+        "url": "https://www.nexusmods.com/fallout4/mods/46453",
+        "version": "5.0.0.0"
+      },
+      {
+        "name": "The Wasteland Garage - Resource 1",
+        "url": "https://www.nexusmods.com/fallout4/mods/40812",
+        "version": "1.4.0.0"
+      },
+      {
+        "name": "Taxidermy Expanded",
+        "url": "https://www.nexusmods.com/fallout4/mods/19570",
+        "version": "0.8.0.0"
+      },
+      {
+        "name": "Craftable Coffee",
+        "url": "https://www.nexusmods.com/fallout4/mods/12162",
+        "version": "d2025.12.6.0"
       },
       {
         "name": "Munitions - Settlement Supplies",
-        "url": "https://www.nexusmods.com/fallout4/mods/69476"
+        "url": "https://www.nexusmods.com/fallout4/mods/69476",
+        "version": "1.3.0.0"
+      },
+      {
+        "name": "Colorful Bottle Lanterns",
+        "url": "https://www.nexusmods.com/fallout4/mods/22309",
+        "version": "f2.07"
       }
     ],
     "Workshop Rearranged": [
       {
+        "name": "Workshop Rearranged Patch Pack",
+        "url": "https://www.nexusmods.com/fallout4/mods/16181",
+        "version": "0.6.13.0"
+      },
+      {
         "name": "Workshop Rearranged",
-        "url": "https://www.nexusmods.com/fallout4/mods/16181"
+        "url": "https://www.nexusmods.com/fallout4/mods/16181",
+        "version": "0.6.13.0"
       },
       {
         "name": "The Master Plan Patch",
-        "url": "https://www.nexusmods.com/fallout4/mods/16626"
+        "url": "https://www.nexusmods.com/fallout4/mods/16626",
+        "version": "6.13.0.0"
       },
       {
         "name": "JJB Workshop Rearranged Patch"
-      },
-      {
-        "name": "Workshop Rearranged Patch Pack",
-        "url": "https://www.nexusmods.com/fallout4/mods/16181"
       }
     ],
     "Unsorted": [
       {
-        "name": "Commonwealth Trade Network"
+        "name": "Fliteska Workshop",
+        "version": "d2025.5.1"
       },
       {
-        "name": "Fliteska Workshop"
+        "name": "Commonwealth Trade Network"
       }
     ],
     "Rebuild Collection": [
       {
         "name": "The Rebuild Collection - AIO",
-        "url": "https://www.nexusmods.com/fallout4/mods/79618"
+        "url": "https://www.nexusmods.com/fallout4/mods/79618",
+        "version": "1.3.0.0"
       },
       {
         "name": "The Rebuild Collection - Shared Resources",
-        "url": "https://www.nexusmods.com/fallout4/mods/80606"
+        "url": "https://www.nexusmods.com/fallout4/mods/80606",
+        "version": "2.7.0.0"
       }
     ],
     "Load Last": [
       {
         "name": "Scrap Everything",
-        "url": "https://www.nexusmods.com/fallout4/mods/5320"
+        "url": "https://www.nexusmods.com/fallout4/mods/5320",
+        "version": "2.5.2.1"
       },
       {
         "name": "Workshop Framework Script Override",
-        "url": "https://www.nexusmods.com/fallout4/mods/35004"
+        "url": "https://www.nexusmods.com/fallout4/mods/35004",
+        "version": "2.3.19.0"
       }
     ]
   },
