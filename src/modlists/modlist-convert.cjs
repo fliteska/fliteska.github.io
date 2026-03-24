@@ -17,20 +17,39 @@ const readline = require('readline');
     });
 
     rl.on('line', (line) => {
-      console.log(`Line from file: ${line}`);
       list.push(line);
     });
 
     await events.once(rl, 'close');
     list.reverse();
     list.map((mod) => {
+      console.log(mod, currentSeparator);
       if (mod.startsWith("*DLC: ")) {
-        mods.DLC.push(mod.replace("*DLC: ", ""));
+        mods.DLC.push({ name: mod.replace("*DLC: ", "") });
       } else if (mod.includes("_separator")) {
         currentSeparator = mod.replace("_separator", "").replace("-", "").replace("+", "");
         mods[currentSeparator] = [];
       } else if (mod.startsWith("+")) {
-        mods[currentSeparator].push(mod.replace("+", ""));
+        try {
+          const tempSeparator = currentSeparator;
+        const metaFile = readline.createInterface({
+          input: fs.createReadStream(`D:\\MO2\\Fallout 4\\mods\\${mod.replace("+", "")}\\meta.ini`),
+          crlfDelay: Infinity
+        });
+          let modId = null;
+          metaFile.on('line', (line) => {
+            if (line.startsWith("modid")) {
+              modId = line.split("=")[1].trim();
+              if (modId === "0") {
+                mods[tempSeparator].push({ name: mod.replace("+", "") });
+              } else {
+                mods[tempSeparator].push({ name: mod.replace("+", ""), url: `https://www.nexusmods.com/fallout4/mods/${modId}` });
+              }
+            }
+          });
+        } catch (err) {
+          console.error(`Error processing mod ${mod}: ${err}`);
+        }
       }
     });
     const rl2 = readline.createInterface({

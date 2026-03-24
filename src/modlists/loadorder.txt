@@ -34,114 +34,73 @@ ccfsvfo4004-vrworkshopgnrplaza.esl
 ccBGSFO4046-TesCan.esl
 ccSBJFO4003-Grenade.esl
 ccOTMFO4001-Remnants.esl
+cceejfo4001-decorationpack1.esl
 community fixes merged.esp
 Enhanced Vanilla Water.esm
-Hit Those Objects.esm
 Diamond City Supplements.esm
 Dynamic Activation Key.esp
-HUDFramework.esm
-No Sneaking in Power Armor.esp
-REFramework.esm
-MJC JunkYard Construction Set.esl
-NewWalls.esl
-JJB_WOOD_WALLS_FABS.esl
 CleanMySettlement.esm
-WorkshopFramework.esm
-homemaker.esm
-Garage.esm
-EthreonMasterPlan.esm
-Snap'n Build.esm
 ChuckYufarleyCollection.esm
-cceejfo4001-decorationpack1.esl
 Fallout3StyledVaults.esl
+EthreonMasterPlan.esm
+Hit Those Objects.esm
+HUDFramework.esm
+TMR_GlitchfinderAIO.esm
+MJC JunkYard Construction Set.esl
 SSTWorkshopPowerPack.esl
 Rebuild_SharedResources.esm
-unofficial fallout 4 patch.esp
 SmokingChimneys.esl
-YouAndWhatArmy2.esm
 XDI.esm
-SteamMistFogConstr.esl
 MorePrefabs.esl
-JJB_ALUM.esl
 MoreScavengingStations.esl
+YouAndWhatArmy2.esm
+homemaker.esm
+ghoulification.esm
+Garage.esm
+No Sneaking in Power Armor.esp
+Munitions - An Ammo Expansion.esl
+JJB_ALUM.esl
+SteamMistFogConstr.esl
+REFramework.esm
+JJB_WOOD_WALLS_FABS.esl
+NewWalls.esl
+Snap'n Build.esm
+WorkshopFramework.esm
 Ladder.esl
-TMR_GlitchfinderAIO.esm
+unofficial fallout 4 patch.esp
 ppf.esm
-IntegratedAddons_ArcadeWorkshopPack.esp
-IntegratedAddons_WeaponPaintJob_VaultTec.esp
+Alternative Activation Prompts.esp
 IntegratedAddons_WeaponPaintJob_ReillysRangers.esp
 IntegratedAddons_WeaponPaintJob_Minutemen.esp
-IntegratedAddons_WeaponPaintJob_JackOLantern.esp
-IntegratedAddons_WeaponPaintJob_Institute.esp
+IntegratedAddons_WeaponPaintJob_HotRodPink.esp
 IntegratedAddons_WeaponPaintJob_Gunners.esp
 IntegratedAddons_WeaponPaintJob_BrotherhoodOfSteel.esp
+IntegratedAddons_WeaponPaintJob_Bats.esp
 IntegratedAddons_PipBoyPaintJob_SilverShroud.esp
 IntegratedAddons_PipBoyPaintJob_ReillysRangers.esp
 IntegratedAddons_PipBoyPaintJob_RedRocket.esp
 IntegratedAddons_PipBoyPaintJob_OverseerVeneer.esp
-IntegratedAddons_PipBoyPaintJob_NukaCola.esp
 IntegratedAddons_PipBoyPaintJob_Grognak.esp
-IntegratedAddons_ArmorPaintJob_ReillysRangers.esp
+IntegratedAddons_ArmorPaintJob_VaultTec.esp
 IntegratedAddons_ArmorPaintJob_NukaCherry.esp
 IntegratedAddons_ArmorPaintJob_Minutemen.esp
 IntegratedAddons_ArmorPaintJob_JackOLantern.esp
-IntegratedAddons_ArmorPaintJob_HotRodPink.esp
-IntegratedAddons_ArmorPaintJob_Gunners.esp
-IntegratedAddons_ArmorPaintJob_BrotherhoodOfSteel.esp
-IntegratedAddons_ArmorPaintJob_Bats.esp
-IntegratedAddons_WeaponPaintJob_Bats.esp
-IntegratedAddons_WeaponPaintJob_HotRodPink.esp
-IntegratedAddons_ArmorPaintJob_VaultTec.esp
 IntegratedAddons_ArmorPaintJob_Institute.esp
-IntegratedAddons_VaultSuitCustomization.esp
-RAW INPUT.esp
-WeaponModFixes-GOTY.esp
-Weapon Mod Fixes - CFM Patch.esp
-Wetness Shader Fix.esp
-Fixed Gobo Effects.esp
-Flutter Flicker Fixer For Foliage.esp
-prp.esp
-Alternative Activation Prompts.esp
-Workshop Highlight Fix.esp
-Simple FOV Slider.esp
-Less Annoying Berry Mentats.esp
-Dogmeat Follow Behind.esp
-Simple Everyone's Best Friend.esp
-IntegratedAddons.esp
-Keep Radiants In Commonwealth.esp
-WhoIsTheGeneral.esp
-WTG - KRIC Patch.esp
-LegendariesTheyCanUse.esp
-MoreWeathervanes.esp
-MoreDCBounties.esp
-Legendary Mutation Messages Fix.esp
-Lightweight Lighting.esp
-Gloomy Glass.esp
-Targeted Textures.esp
-FO4ParticlePatch.esp
-ScopeOverlayDOF.esp
-DiamondCityBillboards.esp
-GoodneighborView.esp
-WorkshopPlus.esp
-SettlementMenuManager.esp
-Conquest.esp
-JJRobotVendorFix.esp
-ModdableRobotSettlers.esp
-Nuka-MixUniqueTextures.esp
-NAC.esp
-NAC-NW.esp
-NAC-FH.esp
-CheatTerminal.esp
+IntegratedAddons_ArmorPaintJob_BrotherhoodOfSteel.esp
+IntegratedAddons_WeaponPaintJob_Institute.esp
+IntegratedAddons_WeaponPaintJob_VaultTec.esp
+IntegratedAddons_ArmorPaintJob_HotRodPink.esp
+IntegratedAddons_ArmorPaintJob_ReillysRangers.esp
+IntegratedAddons_ArmorPaintJob_Gunners.esp
+IntegratedAddons_ArmorPaintJob_Bats.esp
+IntegratedAddons_PipBoyPaintJob_NukaCola.esp
+IntegratedAddons_WeaponPaintJob_JackOLantern.esp
 CastleInTheSky.esp
-a111 Workshop Vanilla Idles New.esp
 [mde]_Hotchpotch.esp
 AkaInvisibleFurniture.esp
 afpABetterWorldWorkshop_Cabin.esp
 AkaWaterWorld.esp
-ChuckYufarley_LogSet.esp
 AkirasClutter.esp
-AnomWorkshopCore.esp
-AnomTrashDebrisMenu.esp
 ArmorTables.esp
 AtomGreatness.esp
 BAM-BetterArmoryMod.esp
@@ -152,17 +111,24 @@ Boats.esp
 BobIguanaDiner.esp
 BorderJunk.esp
 BoxHouses.esp
-Craftable Greebles 1.53 Vanilla-Boat Release Rebaked.esp
 CabinInTheWoods.esp
+AllSetsExtended.esp
+ccbgsfo4045-advarccab1.esp
+Fixed Gobo Effects.esp
+Dogmeat Follow Behind.esp
+DiamondCityBillboards.esp
+Conquest.esp
+CheatTerminal.esp
+ChuckYufarley_LogSet.esp
+Craftable Greebles 1.53 Vanilla-Boat Release Rebaked.esp
 Coffee.esp
 ColorfulBottleLanterns.esp
-SLR.esp
 ColorfulBottleLanterns_NoQuestRequirements.esp
-ChuckYufarley_DinerSet.esp
 ChuckYufarley_MoreSigns.esp
 ChuckYufarley_BarracksSet.esp
 ChuckYufarley_GreenhouseSet.esp
 ChuckYufarley_SecurityWallSet.esp
+ChuckYufarley_DinerSet.esp
 CraftableAnimationMarkers.esp
 creativeclutter.esp
 cVc Dead Wasteland 6.esp
@@ -173,11 +139,54 @@ dinoshelf.esp
 EvilViking13_MinutemenMorale.esp
 EvilViking13_WastelandWalls.esp
 FactionWorkshopManager.esp
+CTN.esp
+FlaconOil_2K_0.esp
+DakMinmenOutfits.esp
+DAK_Security_Armor.esp
+Kamuro Neon.esp
+IntegratedAddons_ArcadeWorkshopPack.esp
+IntegratedAddons_VaultSuitCustomization.esp
+Flutter Flicker Fixer For Foliage.esp
+Less Annoying Berry Mentats.esp
+IntegratedAddons.esp
+Keep Radiants In Commonwealth.esp
+LegendariesTheyCanUse.esp
+Legendary Mutation Messages Fix.esp
+Lightweight Lighting.esp
+Gloomy Glass.esp
+FO4ParticlePatch.esp
+GoodneighborView.esp
+JJRobotVendorFix.esp
 g2m_Workshop_Nexus.esp
 GrafsSecurityFences.esp
 JustDebris.esp
-Kamuro Neon.esp
 KURO.esp
+WeaponModFixes-GOTY.esp
+Weapon Mod Fixes - CFM Patch.esp
+Wetness Shader Fix.esp
+prp.esp
+Workshop Highlight Fix.esp
+Simple FOV Slider.esp
+Simple Everyone's Best Friend.esp
+WhoIsTheGeneral.esp
+WTG - KRIC Patch.esp
+MoreWeathervanes.esp
+MoreDCBounties.esp
+Targeted Textures.esp
+ScopeOverlayDOF.esp
+WorkshopPlus.esp
+SettlementMenuManager.esp
+FLT_Munitions_SettlementObjects.esp
+Fliteska Workshop.esp
+AnomWorkshopCore.esp
+AnomTrashDebrisMenu.esp
+a111 Workshop Vanilla Idles New.esp
+ModdableRobotSettlers.esp
+Nuka-MixUniqueTextures.esp
+NAC.esp
+NAC-NW.esp
+NAC-FH.esp
+SLR.esp
 ZebrinasWorkshopDevices.esp
 More Scavenging Stations.esp
 OCDecorator.esp
@@ -212,21 +221,20 @@ WareHouseExt.esp
 WastelandBillboards.esp
 WoodenPrefabsExtended.esp
 woodysWastelandStuff.esp
-Fliteska Workshop.esp
 WorkshopRearranged.esp
+JJBWorkshopRearrangedPatch.esp
 GroundedWR.esp
 WorkshopRearranged_JustDebris_Patch.esp
 WorkshopRearranged_SnB_Patch.esp
 WWP - PC.esp
 PhotoMode.esp
-AllSetsExtended.esp
-ccbgsfo4045-advarccab1.esp
-ccfsvfo4003-slocum1.esp
-cctosfo4001-neosky1.esp
+FLTBallisticMask.esp
+VividFallout - AiO - 2k.esp
 cctosfo4002_neonflats1.esp
-ccjvdfo4001-holiday1.esp
 cceejfo4002-nuka1.esp
 ccfsvfo4002-midcenturymodern1.esp
 cckgjfo4001-bastion1.esp
-JJBWorkshopRearrangedPatch.esp
-FLTBallisticMask.esp
+ccjvdfo4001-holiday1.esp
+cctosfo4001-neosky1.esp
+ccfsvfo4003-slocum1.esp
+WorkshopFramework_ScriptOverride.esp
